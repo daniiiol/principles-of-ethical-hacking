@@ -1,0 +1,26 @@
+# Stage 1: Build .NET application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy everything else and build
+COPY . ./
+RUN dotnet publish PrinciplesOfEthicalHacking.sln -c Release -o out
+RUN dotnet run /app/PrinciplesOfEthicalHacking.Generator.exe
+
+# Stage 2: Create the final image with NGINX
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+
+# Copy the build output from the first stage
+COPY --from=build-env /app/output /usr/share/nginx/html/
+COPY --from=build-env /app/nginx/default.conf /etc/nginx/conf.d/default.conf
+
+# Expose the default port
+EXPOSE 80
+
+# Start NGINX
+CMD ["nginx", "-g", "daemon off;"]

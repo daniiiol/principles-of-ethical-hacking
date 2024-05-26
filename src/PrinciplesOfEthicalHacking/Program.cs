@@ -12,11 +12,11 @@ if (!Directory.Exists(websiteOutput))
     Directory.CreateDirectory(websiteOutput);
 }
 
-CopyDirectory(@"..\..\..\..\website\assets\", Path.Combine(websiteOutput, "assets"));
+CopyDirectory(@"website/assets/", Path.Combine(websiteOutput, "assets"));
 
-var hackerTemplatePath = @"..\..\..\..\website\template\hacker.html";
-var organisationTemplatePath = @"..\..\..\..\website\template\organisation.html";
-var yamlPath = @"..\..\..\..\website\data\i18n\";
+var hackerTemplatePath = @"website/template/hacker.html";
+var organisationTemplatePath = @"website/template/organisation.html";
+var yamlPath = @"website/data/i18n/";
 var yamlFiles = Directory.GetFiles(yamlPath, "*.yaml");
 
 var languages = GetAllLanguages(yamlFiles);
@@ -53,7 +53,7 @@ foreach (var yamlFile in yamlFiles)
             langFirstRound = false;
         }
 
-        var currentLanguage = $"<a href=\"../{lang.ToLower()}/[[SECTION]].html\">{lang.ToUpper()}</a>";
+        var currentLanguage = $"<a href=\"/{lang.ToLower()}/[[SECTION]].html\">{lang.ToUpper()}</a>";
         if (lang.ToLower().Equals(language.ToLower()))
         {
             currentLanguage = $"<span class=\"badge text-bg-secondary\">{lang.ToUpper()}</span>";
@@ -88,7 +88,14 @@ foreach (var yamlFile in yamlFiles)
 
             // Save on new location
             string targetFilePath = Path.Combine(websiteOutput, language, "hacker.html");
+
             File.WriteAllText(targetFilePath, hackerWebsite);
+
+            if (language.ToLower().Equals("en"))
+            {
+                string targetFilePathIndex = Path.Combine(websiteOutput, "index.html");
+                File.WriteAllText(targetFilePathIndex, hackerWebsite);
+            }
         }
 
         if (!string.IsNullOrEmpty(section.Key) && section.Key.ToLower().Equals("organisation"))

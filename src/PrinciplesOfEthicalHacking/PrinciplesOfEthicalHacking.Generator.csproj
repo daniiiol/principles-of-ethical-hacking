@@ -8,6 +8,72 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="website\assets\css\bootstrap.min.css" />
+    <None Remove="website\assets\css\style.css" />
+    <None Remove="website\assets\img\logo.png" />
+    <None Remove="website\assets\js\bootstrap.min.js" />
+    <None Remove="website\data\i18n\de.yaml" />
+    <None Remove="website\data\i18n\en.yaml" />
+    <None Remove="website\data\i18n\es.yaml" />
+    <None Remove="website\data\i18n\fr.yaml" />
+    <None Remove="website\data\i18n\it.yaml" />
+    <None Remove="website\data\i18n\no.yaml" />
+    <None Remove="website\data\i18n\pt.yaml" />
+    <None Remove="website\data\i18n\ro.yaml" />
+    <None Remove="website\data\i18n\se.yaml" />
+    <None Remove="website\template\hacker.html" />
+    <None Remove="website\template\organisation.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="website\assets\css\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\assets\css\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\assets\img\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\assets\js\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\de.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\en.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\es.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\fr.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\it.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\no.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\pt.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\ro.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\data\i18n\se.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\template\hacker.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website\template\organisation.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="YamlDotNet" Version="15.1.4" />
   </ItemGroup>
 
