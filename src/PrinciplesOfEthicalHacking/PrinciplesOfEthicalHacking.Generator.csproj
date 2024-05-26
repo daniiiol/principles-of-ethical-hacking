@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="nginx\default.conf" />
     <None Remove="website\assets\css\bootstrap.min.css" />
     <None Remove="website\assets\css\style.css" />
     <None Remove="website\assets\img\logo.png" />
@@ -23,6 +24,12 @@
     <None Remove="website\data\i18n\se.yaml" />
     <None Remove="website\template\hacker.html" />
     <None Remove="website\template\organisation.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="nginx\default.conf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

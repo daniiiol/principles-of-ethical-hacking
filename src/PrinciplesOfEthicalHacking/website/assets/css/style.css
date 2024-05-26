@@ -232,26 +232,8 @@ footer .container {
   text-align: center;
 }
 
-footer .footer-link ul {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-footer .footer-link ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 22px;
-}
-
-footer .footer-link ul li a {
-  color: #666;
-  transition: all 0.4s ease-in-out;
-  text-decoration: none;
-}
-
-footer .footer-link ul li a:hover {
-  color: #a1c45a;
+footer .footer-link {
+  text-decoration: underline !important;
 }
 
 footer .footer-copyright {

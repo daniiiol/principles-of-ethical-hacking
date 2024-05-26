@@ -53,7 +53,7 @@ foreach (var yamlFile in yamlFiles)
             langFirstRound = false;
         }
 
-        var currentLanguage = $"<a href=\"/{lang.ToLower()}/[[SECTION]].html\">{lang.ToUpper()}</a>";
+        var currentLanguage = $"<a href=\"/{lang.ToLower()}/[[SECTION]]\">{lang.ToUpper()}</a>";
         if (lang.ToLower().Equals(language.ToLower()))
         {
             currentLanguage = $"<span class=\"badge text-bg-secondary\">{lang.ToUpper()}</span>";
