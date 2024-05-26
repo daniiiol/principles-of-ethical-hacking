@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: German (de)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Einverständnis"
+    description: "Jede Hacking-Aktivität wird nur mit vollständigem und explizitem Einverständnis der betroffenen Partei durchgeführt."
+  transparency:
+    title: "Transparenz"
+    description: "Vorgehensweisen und Methoden werden offen kommuniziert und dokumentiert, um Vertrauen und Verständnis zu fördern."
+  security:
+    title: "Sicherheit"
+    description: "Die Sicherheit und Integrität der betroffenen Systeme wird zu jeder Zeit gewährleistet und der Zugang streng kontrolliert."
+  privacy:
+    title: "Privatsphäre"
+    description: "Der Schutz personenbezogener Daten wird gewährleistet und jede Form von Datenleak oder unnötiger Datensammlung vermieden."
+  legality:
+    title: "Legalität"
+    description: "Alle Aktivitäten halten sich strikt an die geltenden Gesetze und Vorschriften."
+  coordinated_disclosure:
+    title: "Koordinierte Veröffentlichungen"
+    description: "Veröffentlichungen von Ergebnissen erfolgen ausschliesslich gemäss vorab vereinbarten Richtlinien."
+  respect:
+    title: "Respekt"
+    description: "Es wird stets ein respektvoller Umgang mit allen Beteiligten gepflegt."
+organisation:
+  boundary_conditions:
+    title: "Randbedingungen"
+    description: "Die Ziele für die Hacking-Aktivitäten werden klar und präzise definiert, um sicherzustellen, dass beide Seiten die Erwartungen und Grenzen verstehen."
+  hacker_respect:
+    title: "Respekt"
+    description: "Ethische Hacker werden mit Respekt behandelt und ihre Fähigkeiten sowie ihr Beitrag zur Cybersicherheit anerkannt."
+  right_to_disclosure:
+    title: "Recht auf Veröffentlichung"
+    description: "Hackern wird das Recht auf Veröffentlichung ihrer Ergebnisse eingeräumt. Vorab definierte Richtlinien regeln den Umfang, den Detaillierungsgrad und den Zeitpunkt der Veröffentlichung, um sicherzustellen, dass alle Veröffentlichungen den vereinbarten Standards entsprechen."
+  legal_matters:
+    title: "Rechtliches"
+    description: "Es wird sichergestellt, dass Organisationen ethische Hacker nicht rechtlich belangen, sofern diese sich an die vereinbarten Grenzen halten. Jegliche rechtliche Verpflichtungen und Rahmenbedingungen werden im Voraus geklärt, um Rechtsstreitigkeiten zu vermeiden."
+  resources:
+    title: "Ressourcen"
+    description: "Auftraggeber gewährleisten die Bereitstellung ausreichender Ressourcen und Unterstützungsleistungen, um ihre Verpflichtungen effizient und termingerecht nachzukommen."
+  conflict_resolution:
+    title: "Konfliktlösung"
+    description: "Verfahren zur Konfliktlösung werden etabliert, um eventuelle Missverständnisse oder Streitigkeiten zwischen Hackern und den Organisationen effizient und fair zu behandeln."

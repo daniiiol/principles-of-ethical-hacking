@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: Norwegian (no)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Samtykke"
+    description: "Alle hackeaktiviteter utføres kun med fullstendig og eksplisitt samtykke fra den berørte parten."
+  transparency:
+    title: "Åpenhet"
+    description: "Prosedyrer og metoder kommuniseres åpent og dokumenteres for å fremme tillit og forståelse."
+  security:
+    title: "Sikkerhet"
+    description: "Sikkerheten og integriteten til de berørte systemene sikres til enhver tid, og tilgang kontrolleres strengt."
+  privacy:
+    title: "Personvern"
+    description: "Beskyttelse av personopplysninger sikres, og enhver form for datalekkasjer eller unødvendig datainnsamling unngås."
+  legality:
+    title: "Lovlighet"
+    description: "Alle aktiviteter overholder strengt gjeldende lover og forskrifter."
+  coordinated_disclosure:
+    title: "Koordinert Avsløring"
+    description: "Avsløringer av resultater utføres utelukkende i henhold til tidligere avtalte retningslinjer."
+  respect:
+    title: "Respekt"
+    description: "En respektfull omgang med alle involverte parter opprettholdes alltid."
+organisation:
+  boundary_conditions:
+    title: "Begrensningsbetingelser"
+    description: "Målene for hackeaktiviteter er klart og presist definert for å sikre at begge parter forstår forventningene og grensene."
+  hacker_respect:
+    title: "Respekt"
+    description: "Etiske hackere behandles med respekt, og deres ferdigheter og bidrag til cybersikkerhet anerkjennes."
+  right_to_disclosure:
+    title: "Rett til Avsløring"
+    description: "Hackere gis rett til å avsløre sine funn. Forhåndsdefinerte retningslinjer styrer omfanget, detaljene og tidspunktet for avsløringen for å sikre at alle avsløringer oppfyller de avtalte standardene."
+  legal_matters:
+    title: "Juridiske Anliggender"
+    description: "Det sikres at organisasjoner ikke iverksetter rettslige skritt mot etiske hackere så lenge de overholder de avtalte grensene. Eventuelle juridiske forpliktelser og rammer avklares på forhånd for å unngå juridiske tvister."
+  resources:
+    title: "Ressurser"
+    description: "Kunder sikrer tilstrekkelige ressurser og støttetjenester for å oppfylle sine forpliktelser effektivt og i tide."
+  conflict_resolution:
+    title: "Konfliktløsning"
+    description: "Prosedyrer for konfliktløsning etableres for å håndtere eventuelle misforståelser eller tvister mellom hackere og organisasjoner effektivt og rettferdig."

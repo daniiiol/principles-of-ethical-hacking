@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: Romanian (ro)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Consimțământ"
+    description: "Toate activitățile de hacking se desfășoară numai cu consimțământul complet și explicit al părții afectate."
+  transparency:
+    title: "Transparență"
+    description: "Procedurile și metodele sunt comunicate deschis și documentate pentru a promova încrederea și înțelegerea."
+  security:
+    title: "Securitate"
+    description: "Securitatea și integritatea sistemelor afectate sunt asigurate în permanență, iar accesul este strict controlat."
+  privacy:
+    title: "Confidențialitate"
+    description: "Protecția datelor personale este asigurată și se evită orice formă de scurgere de date sau colectare inutilă de date."
+  legality:
+    title: "Legalitate"
+    description: "Toate activitățile respectă strict legile și reglementările aplicabile."
+  coordinated_disclosure:
+    title: "Dezvăluire Coordonată"
+    description: "Dezvăluirea rezultatelor se efectuează exclusiv conform liniilor directoare convenite anterior."
+  respect:
+    title: "Respect"
+    description: "O interacțiune respectuoasă cu toate părțile implicate este întotdeauna menținută."
+organisation:
+  boundary_conditions:
+    title: "Condiții de Limită"
+    description: "Obiectivele activităților de hacking sunt clar și precis definite pentru a se asigura că ambele părți înțeleg așteptările și limitele."
+  hacker_respect:
+    title: "Respect"
+    description: "Hackerii etici sunt tratați cu respect, iar abilitățile și contribuțiile lor la securitatea cibernetică sunt recunoscute."
+  right_to_disclosure:
+    title: "Dreptul la Dezvăluire"
+    description: "Hackerilor li se acordă dreptul de a-și dezvălui descoperirile. Liniile directoare predefinite reglementează sfera, detaliile și momentul dezvăluirii pentru a se asigura că toate dezvăluirile îndeplinesc standardele convenite."
+  legal_matters:
+    title: "Aspecte Legale"
+    description: "Se asigură că organizațiile nu iau măsuri legale împotriva hackerilor etici atât timp cât aceștia respectă limitele convenite. Orice obligații și cadre legale sunt clarificate în prealabil pentru a evita disputele legale."
+  resources:
+    title: "Resurse"
+    description: "Clienții asigură furnizarea de resurse și servicii de suport suficiente pentru a-și îndeplini obligațiile în mod eficient și la timp."
+  conflict_resolution:
+    title: "Rezolvarea Conflictelor"
+    description: "Sunt stabilite proceduri pentru rezolvarea conflictelor pentru a aborda eficient și echitabil orice neînțelegeri sau dispute între hackeri și organizații."

@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: Swedish (se)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Samtycke"
+    description: "Alla hackningsaktiviteter utförs endast med fullständigt och uttryckligt samtycke från den berörda parten."
+  transparency:
+    title: "Transparens"
+    description: "Procedurer och metoder kommuniceras öppet och dokumenteras för att främja förtroende och förståelse."
+  security:
+    title: "Säkerhet"
+    description: "Säkerheten och integriteten hos de berörda systemen säkerställs hela tiden, och åtkomst är strikt kontrollerad."
+  privacy:
+    title: "Integritet"
+    description: "Skyddet av personuppgifter säkerställs, och all form av dataläckage eller onödig datainsamling undviks."
+  legality:
+    title: "Laglighet"
+    description: "Alla aktiviteter följer strikt gällande lagar och föreskrifter."
+  coordinated_disclosure:
+    title: "Koordinerad Avslöjande"
+    description: "Avslöjanden av resultat utförs uteslutande enligt tidigare överenskomna riktlinjer."
+  respect:
+    title: "Respekt"
+    description: "En respektfull interaktion med alla inblandade parter upprätthålls alltid."
+organisation:
+  boundary_conditions:
+    title: "Gränsvillkor"
+    description: "Målen för hackningsaktiviteter definieras tydligt och precist för att säkerställa att båda parter förstår förväntningarna och gränserna."
+  hacker_respect:
+    title: "Respekt"
+    description: "Etiska hackare behandlas med respekt, och deras färdigheter och bidrag till cybersäkerhet erkänns."
+  right_to_disclosure:
+    title: "Rätt till Avslöjande"
+    description: "Hackare ges rätt att avslöja sina upptäckter. Fördefinierade riktlinjer styr omfattningen, detaljerna och tidpunkten för avslöjandet för att säkerställa att alla avslöjanden uppfyller de överenskomna standarderna."
+  legal_matters:
+    title: "Juridiska Frågor"
+    description: "Det säkerställs att organisationer inte vidtar rättsliga åtgärder mot etiska hackare så länge de följer de överenskomna gränserna. Eventuella juridiska skyldigheter och ramar klargörs i förväg för att undvika juridiska tvister."
+  resources:
+    title: "Resurser"
+    description: "Kunder säkerställer tillhandahållandet av tillräckliga resurser och stödtjänster för att uppfylla sina skyldigheter effektivt och i tid."
+  conflict_resolution:
+    title: "Konfliktlösning"
+    description: "Förfaranden för konfliktlösning etableras för att effektivt och rättvist hantera eventuella missförstånd eller tvister mellan hackare och organisationer."

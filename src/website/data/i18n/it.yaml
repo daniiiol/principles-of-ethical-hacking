@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: Italian (it)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Consenso"
+    description: "Tutte le attività di hacking vengono svolte solo con il pieno e esplicito consenso della parte interessata."
+  transparency:
+    title: "Trasparenza"
+    description: "Procedure e metodi sono comunicati apertamente e documentati per promuovere fiducia e comprensione."
+  security:
+    title: "Sicurezza"
+    description: "La sicurezza e l'integrità dei sistemi interessati sono garantite in ogni momento, e l'accesso è strettamente controllato."
+  privacy:
+    title: "Privacy"
+    description: "La protezione dei dati personali è garantita e viene evitata qualsiasi forma di perdita di dati o raccolta inutile di dati."
+  legality:
+    title: "Legalità"
+    description: "Tutte le attività rispettano rigorosamente le leggi e i regolamenti applicabili."
+  coordinated_disclosure:
+    title: "Divulgazione Coordinata"
+    description: "La divulgazione dei risultati avviene esclusivamente secondo le linee guida precedentemente concordate."
+  respect:
+    title: "Rispetto"
+    description: "Viene sempre mantenuta un'interazione rispettosa con tutte le parti coinvolte."
+organisation:
+  boundary_conditions:
+    title: "Condizioni Limite"
+    description: "Gli obiettivi delle attività di hacking sono chiaramente e precisamente definiti per garantire che entrambe le parti comprendano aspettative e limiti."
+  hacker_respect:
+    title: "Rispetto"
+    description: "Gli hacker etici sono trattati con rispetto, e le loro competenze e contributi alla sicurezza informatica sono riconosciuti."
+  right_to_disclosure:
+    title: "Diritto alla Divulgazione"
+    description: "Agli hacker viene concesso il diritto di divulgare le proprie scoperte. Linee guida predefinite regolano l'ambito, i dettagli e i tempi della divulgazione per garantire che tutte le divulgazioni soddisfino gli standard concordati."
+  legal_matters:
+    title: "Questioni Legali"
+    description: "Si garantisce che le organizzazioni non intraprendano azioni legali contro gli hacker etici fintanto che rispettano i limiti concordati. Eventuali obblighi e quadri giuridici vengono chiariti in anticipo per evitare controversie legali."
+  resources:
+    title: "Risorse"
+    description: "I clienti assicurano la fornitura di risorse e servizi di supporto sufficienti per adempiere ai propri obblighi in modo efficiente e puntuale."
+  conflict_resolution:
+    title: "Risoluzione dei Conflitti"
+    description: "Sono stabilite procedure per la risoluzione dei conflitti per affrontare in modo efficiente ed equo eventuali malintesi o controversie tra hacker e organizzazioni."

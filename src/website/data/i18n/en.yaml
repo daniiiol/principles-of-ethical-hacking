@@ -1,0 +1,46 @@
+# ------------------------------
+# PRINCIPLES OF ETHICAL HACKING
+# Language-File: English (en)
+# ------------------------------
+
+hacker:
+  consent:
+    title: "Consent"
+    description: "All hacking activities are carried out only with the full and explicit consent of the affected party."
+  transparency:
+    title: "Transparency"
+    description: "Procedures and methods are communicated openly and documented to promote trust and understanding."
+  security:
+    title: "Security"
+    description: "The security and integrity of the affected systems are ensured at all times, and access is strictly controlled."
+  privacy:
+    title: "Privacy"
+    description: "The protection of personal data is ensured, and any form of data leakage or unnecessary data collection is avoided."
+  legality:
+    title: "Legality"
+    description: "All activities strictly comply with the applicable laws and regulations."
+  coordinated_disclosure:
+    title: "Coordinated Disclosure"
+    description: "Disclosures of results are carried out exclusively according to previously agreed guidelines."
+  respect:
+    title: "Respect"
+    description: "A respectful interaction with all parties involved is always maintained."
+organisation:
+  boundary_conditions:
+    title: "Boundary Conditions"
+    description: "The objectives for hacking activities are clearly and precisely defined to ensure that both parties understand the expectations and boundaries."
+  hacker_respect:
+    title: "Respect"
+    description: "Ethical hackers are treated with respect, and their skills and contributions to cybersecurity are recognized."
+  right_to_disclosure:
+    title: "Right to Disclosure"
+    description: "Hackers are granted the right to disclose their findings. Predefined guidelines govern the scope, detail, and timing of the disclosure to ensure that all disclosures meet the agreed standards."
+  legal_matters:
+    title: "Legal Matters"
+    description: "It is ensured that organizations do not take legal action against ethical hackers as long as they adhere to the agreed boundaries. Any legal obligations and frameworks are clarified in advance to avoid legal disputes."
+  resources:
+    title: "Resources"
+    description: "Clients ensure the provision of sufficient resources and support services to meet their obligations efficiently and on time."
+  conflict_resolution:
+    title: "Conflict Resolution"
+    description: "Procedures for conflict resolution are established to efficiently and fairly address any misunderstandings or disputes between hackers and organizations."
