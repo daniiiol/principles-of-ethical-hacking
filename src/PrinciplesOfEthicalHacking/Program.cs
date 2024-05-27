@@ -42,7 +42,7 @@ foreach (var yamlFile in yamlFiles)
 
     var langBuilder = new StringBuilder();
     var langFirstRound = true;
-    foreach (var lang in languages)
+    foreach (var lang in languages.OrderBy(p => p.ToString()))
     {
         if (!langFirstRound)
         {
