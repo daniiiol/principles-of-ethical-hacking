@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respect"
     description: "A respectful interaction with all parties involved is always maintained."
+  report_strategy:
+    title: "Report First"
+    description: "Hackers explicitly follow the 'Report First' strategy, instead of 'Exploit First'. After the initial reporting of a vulnerability, they ask the company if further investigations are desired to coordinate appropriate steps together."
 organisation:
   boundary_conditions:
     title: "Boundary Conditions"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Conflict Resolution"
     description: "Procedures for conflict resolution are established to efficiently and fairly address any misunderstandings or disputes between hackers and organizations."
+  first_contact:
+    title: "Coordination at First Contact"
+    description: "At first contact, the organization neutrally coordinates with the ethical hacker to determine whether and how further investigations should be conducted."

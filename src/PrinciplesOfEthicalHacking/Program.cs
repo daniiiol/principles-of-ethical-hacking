@@ -73,53 +73,44 @@ foreach (var yamlFile in yamlFiles)
 
         if (!string.IsNullOrEmpty(section.Key) && section.Key.ToLower().Equals("hacker"))
         {
-            foreach (var subsection in section.Value)
-            {
-                if (subsection.Value.TryGetValue("title", out var title) && subsection.Value.TryGetValue("description", out var description))
-                {
-                    hackerWebsite = hackerWebsite.Replace($"[[{section.Key}.title.{subsection.Key}]]", HttpUtility.HtmlEncode(title));
-                    hackerWebsite = hackerWebsite.Replace($"[[{section.Key}.description.{subsection.Key}]]", HttpUtility.HtmlEncode(description));
-                }
-            }
-
-            hackerWebsite = hackerWebsite.Replace("[[LANG]]", language.ToLower());
-            hackerWebsite = hackerWebsite.Replace("[[LANGUAGES]]", langBuilder.ToString());
-            hackerWebsite = hackerWebsite.Replace("[[SECTION]]", HttpUtility.HtmlEncode(section.Key));
-
-            // Save on new location
-            string targetFilePath = Path.Combine(websiteOutput, language, "hacker.html");
-
-            File.WriteAllText(targetFilePath, hackerWebsite);
+            var resultString = CreateSite(section, hackerWebsite, Path.Combine(websiteOutput, language, "hacker.html"), language, langBuilder);
 
             if (language.ToLower().Equals("en"))
             {
                 string targetFilePathIndex = Path.Combine(websiteOutput, "index.html");
-                File.WriteAllText(targetFilePathIndex, hackerWebsite);
+                File.WriteAllText(targetFilePathIndex, resultString);
             }
         }
 
         if (!string.IsNullOrEmpty(section.Key) && section.Key.ToLower().Equals("organisation"))
         {
-            foreach (var subsection in section.Value)
-            {
-                if (subsection.Value.TryGetValue("title", out var title) && subsection.Value.TryGetValue("description", out var description))
-                {
-                    organisationWebsite = organisationWebsite.Replace($"[[{section.Key}.title.{subsection.Key}]]", HttpUtility.HtmlEncode(title));
-                    organisationWebsite = organisationWebsite.Replace($"[[{section.Key}.description.{subsection.Key}]]", HttpUtility.HtmlEncode(description));
-                }
-            }
-
-            organisationWebsite = organisationWebsite.Replace("[[LANG]]", language.ToLower());
-            organisationWebsite = organisationWebsite.Replace("[[LANGUAGES]]", langBuilder.ToString());
-            organisationWebsite = organisationWebsite.Replace("[[SECTION]]", HttpUtility.HtmlEncode(section.Key));
-
-            // Save on new location
-            string targetFilePath = Path.Combine(websiteOutput, language, "organisation.html");
-            File.WriteAllText(targetFilePath, organisationWebsite);
+            CreateSite(section, organisationWebsite, Path.Combine(websiteOutput, language, "organisation.html"), language, langBuilder);
         }
     }
 }
 
+static string CreateSite(KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> section, string website, string filePath, string language, StringBuilder languageBuilder)
+{
+    foreach (var subsection in section.Value)
+    {
+        if (subsection.Value.TryGetValue("title", out var title) && subsection.Value.TryGetValue("description", out var description))
+        {
+            website = website.Replace($"[[{section.Key}.title.{subsection.Key}]]", HttpUtility.HtmlEncode(title));
+            website = website.Replace($"[[{section.Key}.description.{subsection.Key}]]", HttpUtility.HtmlEncode(description));
+        }
+    }
+
+    website = website.Replace("[[LANG]]", language.ToLower());
+    website = website.Replace("[[LANGUAGES]]", languageBuilder.ToString());
+    website = website.Replace("[[SECTION]]", HttpUtility.HtmlEncode(section.Key));
+
+    // Save on new location
+    string targetFilePath = Path.Combine(filePath);
+
+    File.WriteAllText(targetFilePath, website);
+
+    return website;
+}
 
 static void CopyDirectory(string sourceDir, string destinationDir)
 {

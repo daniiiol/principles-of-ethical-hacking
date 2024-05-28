@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respekt"
     description: "En respektfull interaktion med alla inblandade parter upprätthålls alltid."
+  report_strategy:
+    title: "Rapportera först"
+    description: "Hackare följer uttryckligen strategin 'Rapportera först' istället för 'Exploatera först'. Efter den initiala rapporteringen av en sårbarhet frågar de företaget om ytterligare undersökningar är önskade för att samordna lämpliga åtgärder tillsammans."
 organisation:
   boundary_conditions:
     title: "Gränsvillkor"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Konfliktlösning"
     description: "Förfaranden för konfliktlösning etableras för att effektivt och rättvist hantera eventuella missförstånd eller tvister mellan hackare och organisationer."
+  first_contact:
+    title: "Samordning vid första kontakt"
+    description: "Vid första kontakt samordnar organisationen neutralt med den etiska hackern om och hur ytterligare undersökningar ska genomföras."

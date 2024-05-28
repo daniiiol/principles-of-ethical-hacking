@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respeto"
     description: "Se mantiene siempre una interacción respetuosa con todas las partes involucradas."
+  report_strategy:
+    title: "Informar Primero"
+    description: "Los hackers siguen explícitamente la estrategia 'Informar Primero', en lugar de 'Explotar Primero'. Después de informar inicialmente sobre una vulnerabilidad, preguntan a la empresa si se desean más investigaciones para coordinar los pasos apropiados juntos."
 organisation:
   boundary_conditions:
     title: "Condiciones Límite"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Resolución de Conflictos"
     description: "Se establecen procedimientos para la resolución de conflictos para tratar de manera eficiente y justa cualquier malentendido o disputa entre hackers y organizaciones."
+  first_contact:
+    title: "Coordinación en el Primer Contacto"
+    description: "En el primer contacto, la organización coordina de manera neutral con el hacker ético para determinar si y cómo se deben realizar más investigaciones."

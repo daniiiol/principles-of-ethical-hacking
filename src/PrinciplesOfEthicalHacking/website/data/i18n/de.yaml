@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respekt"
     description: "Es wird stets ein respektvoller Umgang mit allen Beteiligten gepflegt."
+  report_strategy:
+    title: "Report first"
+    description: "Hacker verfolgen ausdrücklich die Strategie „Report First“, anstatt „Exploit First“. Nach der initialen Meldung einer Schwachstelle fragen sie bei der Unternehmung nach, ob weitere Untersuchungen erwünscht sind, um angemessene Schritte gemeinsam zu koordinieren."
 organisation:
   boundary_conditions:
     title: "Randbedingungen"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Konfliktlösung"
     description: "Verfahren zur Konfliktlösung werden etabliert, um eventuelle Missverständnisse oder Streitigkeiten zwischen Hackern und den Organisationen effizient und fair zu behandeln."
+  first_contact:
+    title: "Koordination bei Erstkontakt"
+    description: "Bei Erstkontakt koordiniert die Organisation neutral mit dem ethischen Hacker, ob und wie weiterführende Untersuchungen durchgeführt werden sollen."

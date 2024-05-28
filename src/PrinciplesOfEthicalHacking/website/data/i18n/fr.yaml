@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respect"
     description: "Une interaction respectueuse avec toutes les parties impliquées est toujours maintenue."
+  report_strategy:
+    title: "Signaler d'abord"
+    description: "Les hackers suivent explicitement la stratégie 'Signaler d'abord', au lieu de 'Exploiter d'abord'. Après le signalement initial d'une vulnérabilité, ils demandent à l'entreprise si des enquêtes supplémentaires sont souhaitées pour coordonner ensemble les étapes appropriées."
 organisation:
   boundary_conditions:
     title: "Conditions Limites"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Résolution des Conflits"
     description: "Des procédures de résolution des conflits sont établies pour traiter efficacement et équitablement tout malentendu ou différend entre les hackers et les organisations."
+  first_contact:
+    title: "Coordination au Premier Contact"
+    description: "Lors du premier contact, l'organisation coordonne de manière neutre avec le hacker éthique pour déterminer si et comment des enquêtes supplémentaires doivent être menées."

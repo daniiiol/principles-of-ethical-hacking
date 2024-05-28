@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respect"
     description: "O interacțiune respectuoasă cu toate părțile implicate este întotdeauna menținută."
+  report_strategy:
+    title: "Raportează Mai Întâi"
+    description: "Hackerii urmează în mod explicit strategia 'Raportează Mai Întâi', în loc de 'Exploatează Mai Întâi'. După raportarea inițială a unei vulnerabilități, ei întreabă compania dacă sunt dorite investigații suplimentare pentru a coordona împreună pașii adecvați."
 organisation:
   boundary_conditions:
     title: "Condiții de Limită"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Rezolvarea Conflictelor"
     description: "Sunt stabilite proceduri pentru rezolvarea conflictelor pentru a aborda eficient și echitabil orice neînțelegeri sau dispute între hackeri și organizații."
+  first_contact:
+    title: "Coordonare la Primul Contact"
+    description: "La primul contact, organizația coordonează în mod neutru cu hackerul etic pentru a stabili dacă și cum ar trebui efectuate investigații suplimentare."

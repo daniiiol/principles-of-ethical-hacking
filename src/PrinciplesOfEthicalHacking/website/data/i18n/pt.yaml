@@ -25,6 +25,9 @@ hacker:
   respect:
     title: "Respeito"
     description: "Uma interação respeitosa com todas as partes envolvidas é sempre mantida."
+  report_strategy:
+    title: "Relatar Primeiro"
+    description: "Os hackers seguem explicitamente a estratégia 'Relatar Primeiro', em vez de 'Explorar Primeiro'. Após o relato inicial de uma vulnerabilidade, eles perguntam à empresa se são desejadas mais investigações para coordenar as etapas apropriadas juntas."
 organisation:
   boundary_conditions:
     title: "Condições Limite"
@@ -44,3 +47,6 @@ organisation:
   conflict_resolution:
     title: "Resolução de Conflitos"
     description: "Procedimentos para resolução de conflitos são estabelecidos para tratar de forma eficiente e justa quaisquer mal-entendidos ou disputas entre hackers e organizações."
+  first_contact:
+    title: "Coordenação no Primeiro Contato"
+    description: "No primeiro contato, a organização coordena de forma neutra com o hacker ético para determinar se e como investigações adicionais devem ser conduzidas."
