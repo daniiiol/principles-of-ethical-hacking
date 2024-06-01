@@ -264,12 +264,23 @@ footer .footer-copyright p {
 
 @media (max-width: 768px) {
 
-  .h1 {
+  h1 {
     text-align: center;
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 3em;
   }
 
   body {
     text-align: center;
+  }
+
+  .navbar-default {
+    text-align: center;
+    padding: 0px !important;
+    margin-top: 140px;
   }
 
   .logo {
@@ -285,9 +296,9 @@ footer .footer-copyright p {
 
 @media (max-width: 767px) {
 
-  .h1 {
-    text-align: center;
-  }
+    h2 {
+      font-size: 2em;
+    }
 
   .navbar-default {
     text-align: center;
@@ -311,10 +322,6 @@ footer .footer-copyright p {
 
 
 @media (max-width: 650px) {
-
-  .h1 {
-    text-align: center;
-  }
 
   #home p {
     font-size: 18px;
