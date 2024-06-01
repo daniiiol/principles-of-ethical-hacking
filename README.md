@@ -2,6 +2,8 @@
 
 This project presents a comprehensive webpage outlining the key principles that both hackers and organizations should adhere to in the realm of ethical hacking. These principles ensure that hacking activities are conducted responsibly, transparently, and legally, promoting trust and collaboration between all parties involved.
 
+These principles are published on 🔗 <https://principles-of-ethical-hacking.org>.
+
 # Translation
 
 You will find all the language files in this 📂 [folder](.//src/PrinciplesOfEthicalHacking/website/data/i18n). If you would like to add or improve a language translation, please create it and send us a pull request.
