@@ -3,6 +3,9 @@
 # Language-File: German (de)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Erkunden Sie unser Engagement für ethische Prinzipien im Hacking, mit Fokus auf Vertrauen, Integrität und verantwortungsvolle Praktiken, um Sicherheit, Privatsphäre und Respekt für alle beteiligten Parteien zu gewährleisten."
 hacker:
   consent:
     title: "Einverständnis"

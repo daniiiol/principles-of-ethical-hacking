@@ -3,6 +3,9 @@
 # Language-File: Romanian (ro)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Explorați angajamentul nostru față de principiile etice în hacking, concentrându-ne pe încredere, integritate și practici responsabile pentru a asigura securitatea, confidențialitatea și respectul pentru toate părțile implicate."
 hacker:
   consent:
     title: "Consimțământ"

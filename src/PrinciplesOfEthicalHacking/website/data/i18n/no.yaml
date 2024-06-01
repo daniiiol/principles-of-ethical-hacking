@@ -3,6 +3,9 @@
 # Language-File: Norwegian (no)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Utforsk vår forpliktelse til etiske prinsipper i hacking, med fokus på tillit, integritet og ansvarlige praksiser for å sikre sikkerhet, personvern og respekt for alle involverte parter."
 hacker:
   consent:
     title: "Samtykke"

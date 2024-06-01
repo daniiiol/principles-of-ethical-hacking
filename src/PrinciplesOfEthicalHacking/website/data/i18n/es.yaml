@@ -3,6 +3,9 @@
 # Language-File: Spanish (es)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Explore nuestro compromiso con los principios éticos en el hacking, centrándose en la confianza, la integridad y las prácticas responsables para garantizar la seguridad, la privacidad y el respeto por todas las partes involucradas."
 hacker:
   consent:
     title: "Consentimiento"

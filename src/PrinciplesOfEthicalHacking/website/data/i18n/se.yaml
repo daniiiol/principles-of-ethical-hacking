@@ -3,6 +3,9 @@
 # Language-File: Swedish (se)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Utforska vårt engagemang för etiska principer i hacking, med fokus på förtroende, integritet och ansvarsfulla metoder för att säkerställa säkerhet, integritet och respekt för alla inblandade parter."
 hacker:
   consent:
     title: "Samtycke"

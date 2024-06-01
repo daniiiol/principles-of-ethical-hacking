@@ -3,6 +3,9 @@
 # Language-File: French (fr)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Découvrez notre engagement envers les principes éthiques dans le hacking, en mettant l'accent sur la confiance, l'intégrité et les pratiques responsables pour garantir la sécurité, la confidentialité et le respect de toutes les parties impliquées."
 hacker:
   consent:
     title: "Consentement"

@@ -3,6 +3,9 @@
 # Language-File: Italian (it)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Esplora il nostro impegno per i principi etici nel hacking, concentrandosi su fiducia, integrità e pratiche responsabili per garantire la sicurezza, la privacy e il rispetto per tutte le parti coinvolte."
 hacker:
   consent:
     title: "Consenso"

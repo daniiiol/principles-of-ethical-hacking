@@ -3,6 +3,9 @@
 # Language-File: English (en)
 # ------------------------------
 
+seo:
+  meta:
+    description: "Explore our commitment to ethical principles in hacking, focusing on trust, integrity, and responsible practices to ensure security, privacy, and respect for all involved parties."
 hacker:
   consent:
     title: "Consent"

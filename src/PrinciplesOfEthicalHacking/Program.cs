@@ -42,6 +42,8 @@ foreach (var yamlFile in yamlFiles)
 
     var langBuilder = new StringBuilder();
     var langFirstRound = true;
+    var metaDescription = string.Empty;
+
     foreach (var lang in languages.OrderBy(p => p.ToString()))
     {
         if (!langFirstRound)
@@ -71,25 +73,36 @@ foreach (var yamlFile in yamlFiles)
             Directory.CreateDirectory(languageFolder);
         }
 
-        if (!string.IsNullOrEmpty(section.Key) && section.Key.ToLower().Equals("hacker"))
+        if (!string.IsNullOrEmpty(section.Key))
         {
-            var resultString = CreateSite(section, hackerWebsite, Path.Combine(websiteOutput, language, "hacker.html"), language, langBuilder);
-
-            if (language.ToLower().Equals("en"))
+            switch (section.Key.ToLower())
             {
-                string targetFilePathIndex = Path.Combine(websiteOutput, "index.html");
-                File.WriteAllText(targetFilePathIndex, resultString);
-            }
-        }
+                case "seo":
+                    foreach (var subsection in section.Value)
+                    {
+                        subsection.Value.TryGetValue("description", out metaDescription);
+                    }
+                    break;
+                case "hacker":
+                    var resultString = CreateSite(section, hackerWebsite, Path.Combine(websiteOutput, language, "hacker.html"), language, langBuilder, metaDescription);
 
-        if (!string.IsNullOrEmpty(section.Key) && section.Key.ToLower().Equals("organisation"))
-        {
-            CreateSite(section, organisationWebsite, Path.Combine(websiteOutput, language, "organisation.html"), language, langBuilder);
+                    if (language.ToLower().Equals("en"))
+                    {
+                        string targetFilePathIndex = Path.Combine(websiteOutput, "index.html");
+                        File.WriteAllText(targetFilePathIndex, resultString);
+                    }
+                    break;
+                case "organisation":
+                    CreateSite(section, organisationWebsite, Path.Combine(websiteOutput, language, "organisation.html"), language, langBuilder, metaDescription);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
 
-static string CreateSite(KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> section, string website, string filePath, string language, StringBuilder languageBuilder)
+static string CreateSite(KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> section, string website, string filePath, string language, StringBuilder languageBuilder, string? metaDescription)
 {
     foreach (var subsection in section.Value)
     {
@@ -100,6 +113,7 @@ static string CreateSite(KeyValuePair<string, Dictionary<string, Dictionary<stri
         }
     }
 
+    website = website.Replace("[[seo.meta.description]]", !string.IsNullOrEmpty(metaDescription) ? HttpUtility.HtmlEncode(metaDescription) : string.Empty);
     website = website.Replace("[[LANG]]", language.ToLower());
     website = website.Replace("[[LANGUAGES]]", languageBuilder.ToString());
     website = website.Replace("[[SECTION]]", HttpUtility.HtmlEncode(section.Key));
